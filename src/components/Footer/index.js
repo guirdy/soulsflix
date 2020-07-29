@@ -1,11 +1,12 @@
 import React from 'react';
+import Bonfire from '../../assets/img/Bonfire.png'
 import { FooterBase } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+        <img src={Bonfire} alt="Bonfire icon" />
       </a>
       <p>
         Orgulhosamente criado durante a
