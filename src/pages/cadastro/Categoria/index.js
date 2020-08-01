@@ -29,18 +29,7 @@ const CadastroCategoria = () => {
   }
 
   useEffect(() => {
-    const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'http://localhost:3000'
-      : 'https://soulsflix.herokuapp.com/categorias';
-
-      fetch(URL_TOP)
-        .then(async (respostaDoServidor) => {
-          const resposta = await respostaDoServidor.json();
-          setCategorias([
-            ...resposta,
-          ]);
-        });
-    /*if (window.location.href.includes('localhost')) {
+    if (window.location.href.includes('localhost')) {
       const URL = 'http://localhost:8080/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
@@ -51,7 +40,7 @@ const CadastroCategoria = () => {
           }
           throw new Error('Não foi possível pegar os dados');
         });
-    }*/
+    }
   }, []);
 
   return (
