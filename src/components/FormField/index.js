@@ -61,10 +61,10 @@ const Input = styled.input`
   ${({ value }) => {
     const hasValue = value.length > 0;
     return hasValue && css`
-        &:not([type='color']) + ${Label.Text} {
-          transform: scale(.6) translateY(-10px);
-        }
-      `;
+      &:not([type='color']) + ${Label.Text} {
+        transform: scale(.6) translateY(-10px);
+      }
+    `;
   }
 }
 `;
@@ -87,7 +87,6 @@ function FormField({
         />
         <Label.Text>
           {label}
-          :
         </Label.Text>
       </Label>
     </FormFieldWrapper>
@@ -95,8 +94,8 @@ function FormField({
 }
 
 FormField.defaultProps = {
-  type: 'text',
-  value: '',
+  type: 'text',
+  value: '',
 };
 
 FormField.propTypes = {
