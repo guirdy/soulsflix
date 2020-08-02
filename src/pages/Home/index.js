@@ -1,19 +1,17 @@
 import React from 'react';
-import Menu from '../../components/Menu'
 import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"A série Souls refere-se a um conjunto de videojogos do gênero role-playing game de ação, criados e produzidos pela companhia japonesa FromSoftware. O primeiro jogo da série, Demon's Souls, foi lançado em 2009 em exclusivo para a PlayStation 3 e recentemente anunciado em um remake para o novo PlayStation 5."}
+        videoDescription="A série Souls refere-se a um conjunto de videojogos do gênero role-playing game de ação, criados e produzidos pela companhia japonesa FromSoftware. O primeiro jogo da série, Demon's Souls, foi lançado em 2009 em exclusivo para a PlayStation 3 e recentemente anunciado em um remake para o novo PlayStation 5."
       />
 
       <Carousel
@@ -27,22 +25,21 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[3]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[5]}
-      />      
+      />
 
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 

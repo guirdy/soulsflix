@@ -1,16 +1,218 @@
 {
     "categorias": [
-        {
-            "id": 1,
-            "nome": "Trailers",
-            "descricao": "Uma categoria bacanuda",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 1,
-            "nome": "Memes",
-            "descricao": "Outra categoria bacanuda",
-            "cor": "#cbd1ff"
+      {
+        "id": 1,
+        "titulo": "Trailers",
+        "cor": "#6b5be2",
+        "link_extra": {
+          "text": "Jogos da Franquia",
+          "url": "https://www.google.com/search?sxsrf=ALeKk00HhOFXvWf0VbS3vgoOgfxr8xk-uw%3A1596336757008&ei=dSomX8ACmaPk5Q_h5ZyADQ&q=souls+jogos&oq=souls+jogos&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeOgQIABBHOgcILhAnEJMCOgQIIxAnOgIILlCO8QFYofcBYJj4AWgAcAF4AIABfYgBjgaSAQMwLjeYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwiAkd_qwfvqAhWZEbkGHeEyB9AQ4dUDCAw&uact=5"
         }
+      },
+      {
+        "id": 2,
+        "titulo": "Canal Brasileiro de DS",
+        "cor": "red",
+        "link_extra": {
+          "text": "TaticaDS",
+          "url": "https://www.youtube.com/c/taticagamer"
+        }
+      },
+      {
+        "id": 3,
+        "titulo": "Canal Brasileiro de DS",
+        "cor": "red",
+        "link_extra": {
+          "text": "RJapa Games",
+          "url": "https://www.youtube.com/c/RaphaelJapaGames"
+        }
+      },
+      {
+        "id": 4,
+        "titulo": "Memes",
+        "cor": "orange"
+      },
+      {
+        "id": 5,
+        "titulo": "Jogos inspirados em souls-like",
+        "cor": "blue",
+        "link_extra": {
+          "text": "Disponíveis na Steam",
+          "url": "https://store.steampowered.com/tags/en/Souls-like/"
+        }
+      },
+      {
+        "id": 6,
+        "titulo": "Lore de Dark Souls",
+        "cor": "green",
+        "link_extra": {
+          "text": "Lar dos Games",
+          "url": "https://www.youtube.com/user/LardosGames"
+        }
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "categoriaId": 1,
+        "titulo": "Demon's Souls Remake",
+        "url": "https://www.youtube.com/watch?v=2TMs2E6cms4"
+      },
+      {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "Dark Souls Remastered",
+        "url": "https://www.youtube.com/watch?v=KfjG9ZLGBHE"
+      },
+      {
+        "id": 3,
+        "categoriaId": 1,
+        "titulo": "Dark Souls II: Scholar of the First Sin",
+        "url": "https://www.youtube.com/watch?v=2p71Wu1TkY4"
+      },
+      {
+        "id": 4,
+        "categoriaId": 1,
+        "titulo": "Dark Souls III",
+        "url": "https://www.youtube.com/watch?v=_zDZYrIUgKE"
+      },
+      {
+        "id": 5,
+        "categoriaId": 1,
+        "titulo": "Bloodborne",
+        "url": "https://www.youtube.com/watch?v=G203e1HhixY"
+      },
+      {
+        "id": 6,
+        "categoriaId": 2,
+        "titulo": "DEMON'S SOULS DETONADO COMPLETO",
+        "url": "https://www.youtube.com/watch?v=FmVd7UhOweU&list=PLg5SLyKtL99JFay5EZ_QVUoNL2UQ3Fl83"
+      },
+      {
+        "id": 7,
+        "categoriaId": 2,
+        "titulo": "DARK SOULS DETONADO PT-BR PLATINA 100% CONQUISTAS",
+        "url": "https://www.youtube.com/watch?v=haDM4TSBx94&list=PLg5SLyKtL99I7Y9mate8Fcs0k_QD0vVZc"
+      },
+      {
+        "id": 8,
+        "categoriaId": 2,
+        "titulo": "DARK SOULS 2 SOTFS DETONADO PT-BR PLATINA 100%",
+        "url": "https://www.youtube.com/watch?v=cb5qcVZKqqo&list=PLg5SLyKtL99J7CTjiYPOE57xYH6z573FB"
+      },
+      {
+        "id": 9,
+        "categoriaId": 2,
+        "titulo": "DARK SOULS 3 DETONADO PT-BR PLATINA 100%",
+        "url": "https://www.youtube.com/watch?v=Erb_KWJ2Jwo&list=PLg5SLyKtL99IjfAJD0ZSw8C8eyVYpSlhX"
+      },
+      {
+        "id": 10,
+        "categoriaId": 2,
+        "titulo": "BLOODBORNE DETONADO",
+        "url": "https://www.youtube.com/watch?v=CTMrgbqhPm0&list=PLg5SLyKtL99Ldr32NeeAc4WX1gwUi1UUU"
+      },
+      {
+        "id": 11,
+        "categoriaId": 3,
+        "titulo": "Instalar Demon's Souls 60fps Pt-br passo a passo",
+        "url": "https://www.youtube.com/watch?v=hJQLRRX3i_U"
+      },
+      {
+        "id": 12,
+        "categoriaId": 3,
+        "titulo": "Frayed Blade Shionbi vs Gael NG7+++ NO HIT",
+        "url": "https://www.youtube.com/watch?v=grF1gdLxb-Q"
+      },
+      {
+        "id": 13,
+        "categoriaId": 3,
+        "titulo": "Onikiri and Ubadachi Blood Shinobi vs Nameless King NO DAMAGE NG7+++",
+        "url": "https://www.youtube.com/watch?v=adpQ2vYd3bg"
+      },
+      {
+        "id": 14,
+        "categoriaId": 3,
+        "titulo": "When you go dark souls with your best mates",
+        "url": "https://www.youtube.com/watch?v=bzJDimvPW1Y"
+      },
+      {
+        "id": 15,
+        "categoriaId": 3,
+        "titulo": "A forma de dragão de Dark Souls!!!",
+        "url": "https://www.youtube.com/watch?v=MvYApd_X3aU"
+      },
+      {
+        "id": 16,
+        "categoriaId": 3,
+        "titulo": "Praise till you're hollow",
+        "url": "https://www.youtube.com/watch?v=mp28JPs25ek"
+      },
+      {
+        "id": 17,
+        "categoriaId": 3,
+        "titulo": "Um natal do Lord!!",
+        "url": "https://www.youtube.com/watch?v=V_wCwTdaGyo"
+      },
+      {
+        "id": 18,
+        "categoriaId": 4,
+        "titulo": "Mortal Shell",
+        "url": "https://www.youtube.com/watch?v=r16Dc_jMWzA"
+      },
+      {
+        "id": 19,
+        "categoriaId": 4,
+        "titulo": "Hollow Knight",
+        "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
+      },
+      {
+        "id": 20,
+        "categoriaId": 4,
+        "titulo": "Salt and Sanctuary",
+        "url": "https://www.youtube.com/watch?v=xKzbtP1GRuY"
+      },
+      {
+        "id": 21,
+        "categoriaId": 5,
+        "titulo": "Nioh",
+        "url": "https://www.youtube.com/watch?v=aMTH7Byv5vE"
+      },
+      {
+        "id": 22,
+        "categoriaId": 5,
+        "titulo": "HELLPOINT",
+        "url": "https://www.youtube.com/watch?v=Fdub_c0Ml0I"
+      },
+      {
+        "id": 23,
+        "categoriaId": 6,
+        "titulo": "DARK SOULS 3 Lore/História - Introdução e Teorias",
+        "url": "https://www.youtube.com/watch?v=t4i361vafBo"
+      },
+      {
+        "id": 24,
+        "categoriaId": 6,
+        "titulo": "Seath & Midir, os Dragões de Cristal",
+        "url": "https://www.youtube.com/watch?v=QDPIDV8KvqE"
+      },
+      {
+        "id": 25,
+        "categoriaId": 6,
+        "titulo": "Gwyn, o Senhor da Luz Solar",
+        "url": "https://www.youtube.com/watch?v=NLuUFDivILo"
+      },
+      {
+        "id": 26,
+        "categoriaId": 6,
+        "titulo": "A tragédia de Gael (Ringed City DLC)",
+        "url": "https://www.youtube.com/watch?v=YGcNLZEuhjM"
+      },
+      {
+        "id": 27,
+        "categoriaId": 6,
+        "titulo": "O Rei Sem Nome (Nameless King)",
+        "url": "https://www.youtube.com/watch?v=A1T3VKG5J84"
+      }
     ]
-}
+  }

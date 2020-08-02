@@ -2,7 +2,7 @@
   "categorias": [
     {
       "titulo": "Trailers",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "link": "https://www.youtube.com/watch?v=2TMs2E6cms4",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Jogos da Franquia",
@@ -10,7 +10,7 @@
       },
       "videos": [
         {
-          "titulo": "Conheça a Saga Souls, os RPG's que deu origem ao estilo souls-like!",
+          "titulo": "Conheça a Saga Souls, os RPG's que deram origem ao estilo souls-like!",
           "url": "https://www.youtube.com/watch?v=2TMs2E6cms4"
         },
         {
