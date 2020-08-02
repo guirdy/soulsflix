@@ -13,7 +13,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"A série Souls refere-se a um conjunto de videojogos do gênero role-playing game de ação, criados e produzidos pela companhia japonesa FromSoftware. O primeiro jogo da série, Demon's Souls, foi lançado em 2009 em exclusivo para a PlayStation 3 e recentemente anunciado em um remake para o novo PlayStation 5."}
       />
 
       <Carousel
